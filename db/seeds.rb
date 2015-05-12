@@ -1,25 +1,26 @@
 Sneaker.create!([
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  {name: "Kobe", brand: "Nike", cost: 99.99, color: "Black", store_id: 1}
-  
+  {name: "Kobe1", brand: "Nike", cost: 99.99, color: "Black", store_id: 1},
+  {name: "Kobe2", brand: "Nike", cost: 99.99, color: "Indian Red", store_id: 1},
+  {name: "Kobe3", brand: "Nike", cost: 99.99, color: "Blue", store_id: 1},
+  {name: "Kobe4", brand: "Nike", cost: 99.99, color: "Green", store_id: 1},
+  {name: "Kobe5", brand: "Nike", cost: 99.99, color: "Gray", store_id: 1},
+  {name: "Kobe6", brand: "Nike", cost: 99.99, color: "Yellow", store_id: 1},
+  {name: "Kobe7", brand: "Nike", cost: 99.99, color: "Indian Red", store_id: 1},
+  {name: "Kobe8", brand: "Nike", cost: 99.99, color: "Blue", store_id: 1},
+  {name: "Kobe9", brand: "Nike", cost: 99.99, color: "Green", store_id: 1},
+  {name: "KobeX", brand: "Nike", cost: 99.99, color: "Black", store_id: 1},
+  {name: "Jordan1", brand: "Nike", cost: 119.99, color: "Black", store_id: 1},
+  {name: "Jordan2", brand: "Nike", cost: 119.99, color: "Indian Red", store_id: 1},
+  {name: "Jordan3", brand: "Nike", cost: 119.99, color: "Blue", store_id: 1},
+  {name: "Jordan4", brand: "Nike", cost: 119.99, color: "Green", store_id: 1},
+  {name: "Jordan5", brand: "Nike", cost: 119.99, color: "Gray", store_id: 1},
+  {name: "Jordan6", brand: "Nike", cost: 119.99, color: "Yellow", store_id: 1},
+  {name: "Jordan7", brand: "Nike", cost: 119.99, color: "Indian Red", store_id: 1},
+  {name: "Jordan8", brand: "Nike", cost: 119.99, color: "Black", store_id: 1},
+  {name: "Jordan9", brand: "Nike", cost: 119.99, color: "Blue", store_id: 1},
+  {name: "JordanX", brand: "Nike", cost: 119.99, color: "Green", store_id: 1},
 ])
+
 Store.create!([
   {name: "Ara Hodkiewicz", address: "5615 Lincoln Mountain", city: "New Rubye", state: "Texas", zipcode: "78206"},
   {name: "Quentin Walter II", address: "53212 Meggie Oval", city: "Joelfort", state: "Florida", zipcode: "40854"},
