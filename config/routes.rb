@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
-  root "sneakers#index"
+  root "views#index"
+
   namespace :api do
-    resources :sneakers
+  	namespace :v1 do
+    	resources :sneakers
+    end
   end
 
 end
