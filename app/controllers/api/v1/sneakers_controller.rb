@@ -11,10 +11,11 @@ module Api
 
 	 		def show
 	 			sneaker = Sneaker.find(params[:id])
-	 			render json: sneakers, except: [:created_at, :updated_at], include: { store: {only: :name}}
+	 			render json: sneaker, except: [:created_at, :updated_at], include: { store: {only: :name}}
 	 		end
 
 	 		def search
+	 			search_term = params[:s]
 	 			search_by = Sneaker.where("name LIKE ?", "%#{params[:s]}%")
 	 			render json: search_by
 	 		end
@@ -23,3 +24,6 @@ module Api
 		end
 	end
 end
+
+
+
